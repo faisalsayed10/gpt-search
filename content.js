@@ -86,7 +86,7 @@ function getAIResults() {
       content.innerHTML = response.error.message;
       regenerateBtn();
     } else {
-      const gpt3Output = response.choices[0].text;
+      const gpt3Output = response.choices[response.choices.length - 1].text;
       content.innerHTML = gpt3Output;
       regenerateBtn();
     }
