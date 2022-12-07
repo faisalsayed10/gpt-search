@@ -72,10 +72,11 @@ function getAIResults() {
       "Content-Type": "application/json",
       "Authorization": `Bearer ${API_KEY}`
     },
-    body: JSON.stringify({
+    body: JSON.stringify({ // Change these options according to your wish
       prompt: query,
       model: "text-davinci-003",
-      // max_tokens: 100,
+      max_tokens: 1024,
+      frequency_penalty: 1,
       temperature: 0
     })
   })
