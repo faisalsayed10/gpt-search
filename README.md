@@ -13,3 +13,8 @@ AI is taking over the world. Yet, it isn't fully integrated in the way we search
 
 
 🎉 And you're done! Enjoy instant AI generated answers to your questions!
+
+
+
+https://user-images.githubusercontent.com/36627266/206087254-dbc24625-bcc5-4c9b-b9bb-632507240f6e.mov
+
